@@ -1,8 +1,8 @@
 
-// Square hollow pattern
+
 import java.util.*;
 
-public class Aayush {
+public class hello{
 	
 	public static void printPattern(int n)
 	{
