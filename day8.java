@@ -3,7 +3,7 @@ public class ComplexityExample {
         int n = 10;
         int[] array = new int[n];
 
-        // Function to calculate the sum of an array
+        
         int sum = calculateSum(array);
 
         System.out.println("Sum: " + sum);
