@@ -5,9 +5,11 @@ public class condstatement {
     public static void main(String[]args){
     Scanner sc= new Scanner(System.in);
     int a= sc.nextInt();
+        //if
     if(a>18){
         System.out.println("adult");
     }
+        //else
     else{
         System.out.println("kiddoos");
     }
@@ -16,6 +18,7 @@ public class condstatement {
     if(a==b){
         System.out.println("a=b");
     }
+        //else-if
     else if(a>b){
         System.out.println("a>b");
     }
