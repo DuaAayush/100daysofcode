@@ -9,7 +9,6 @@ public class JavaPractice {
         list.add(5);
         list.add(10);
         list.add(15);
-
         Map<String, Integer> map = new HashMap<>();
         map.put("apple", 1);
         map.put("banana", 2);
@@ -19,7 +18,6 @@ public class JavaPractice {
         set.add("dog");
         set.add("cat");
         set.add("bird");
-
         // Practice algorithms
         int[] arr = {3, 1, 4, 1, 5, 9, 2, 6, 5, 3, 5};
         int target = 10;
@@ -27,7 +25,6 @@ public class JavaPractice {
 
         String text = "Hello, world! This is a text.";
         System.out.println("Word frequency: " + countWordFrequency(text));
-
         // Practice file handling
         try {
             File file = new File("data.txt");
