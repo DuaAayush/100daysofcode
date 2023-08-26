@@ -64,7 +64,7 @@ public class RecursionPractice {
         }
     }
 
-    // 2. Factorial
+    // 2 Factorial
     public static int factorial(int n) {
         if (n == 0 || n == 1) {
             return 1;
@@ -73,7 +73,7 @@ public class RecursionPractice {
         }
     }
 
-    // 3. Sum of Array Elements
+    // 3 Sum of Array Elements
     public static int sumOfArray(int[] arr) {
         return sumOfArrayRecursive(arr, arr.length - 1);
     }
@@ -86,7 +86,7 @@ public class RecursionPractice {
         }
     }
 
-    // 4. Exponentiation
+    // 4 Exponentiation
     public static int power(int x, int n) {
         if (n == 0) {
             return 1;
@@ -95,7 +95,7 @@ public class RecursionPractice {
         }
     }
 
-    // 5. Palindrome Check
+    // 5 Palindrome Check
     public static boolean isPalindrome(String str) {
         int left = 0;
         int right = str.length() - 1;
@@ -106,7 +106,7 @@ public class RecursionPractice {
         }
     }
 
-    // 6. GCD (Greatest Common Divisor)
+    // 6 GCD (Greatest Common Divisor)
     public static int gcd(int a, int b) {
         if (b == 0) {
             return a;
@@ -115,7 +115,7 @@ public class RecursionPractice {
         }
     }
 
-    // 7. Subset Sum
+    // 7 Subset Sum
     public static boolean hasSubsetSum(int[] set, int targetSum) {
         return hasSubsetSumRecursive(set, set.length - 1, targetSum);
     }
