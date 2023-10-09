@@ -1,4 +1,5 @@
-Problem 1: Simple Array Sum
+Problem 1:
+Simple Array Sum
 Given an array of integers, find the sum of its elements
 
 import java.util.Scanner;
