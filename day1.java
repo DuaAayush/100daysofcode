@@ -1,9 +1,7 @@
 public class App {
     public static void main(String[] args) throws Exception {
       
-        /////////////////////////////////output////////////////////////////////////////////
-        
-    
+     
         System.out.println("Hello, World! with java");
         System.out.print("Hello, World! with java\n");
         System.out.print("Hello, World! with java\n helloo guys\n bye");
